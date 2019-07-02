@@ -126,28 +126,9 @@ export default{
       let dataStart = fmtDate(new Date().valueOf())
       let dataEnd = fmtDate(new Date().valueOf() - 7 * 24 * 60 * 60 * 1000)
       post('/mecv-protocol/user/center', {
-        'header': {
-          'region': '370212',
-          'city': '0532',
-          'messageID': '201710271104190000000018',
-          'imei': '161a3797c83db4e6f84',
-          'ua': 'test',
-          'timeStamp': '20171027110419',
-          'transactionType': '30200000',
-          'terminal': '8',
-          'version': '1.9.8',
-          'sign': 'test',
-          'tel': '18974561111'
-        },
         'body': {
           'source': 'CCT-WEIXIN',
           'type': i,
-          'businessId': this.loginObj.businessId,
-          'pageNo': '1',
-          'pageSize': '10',
-          'fmsCode': '44',
-          'submitDate': dataStart,
-          'submitDateEnd': dataEnd
         }}).then(res => {
         if (res.data.header.resCode === 0) {
         }
