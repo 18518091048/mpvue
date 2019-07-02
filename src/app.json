@@ -1,0 +1,39 @@
+  {
+    "pages": [
+      "pages/homeNew/main"
+   ],
+   "window": {
+     "navigationBarBackgroundColor": "#fff",
+     "navigationBarTitleText": "sadhashd",
+     "navigationBarTextStyle": "black",
+     "enablePullDownRefresh": true,
+     "backgroundTextStyle": "dark"
+   },
+   "tabBar": {
+     "color": "#727272",
+     "selectedColor": "#bc001f",
+     "backgroundColor": "#ffffff",
+     "list": [{
+       "pagePath": "pages/homeNew/main",
+       "text": "首页",
+       "iconPath": "static/img/111.png",
+       "selectedIconPath": "static/img/11.png"
+     },
+     {
+      "pagePath": "pages/homeNew/main",
+      "text": "首页",
+      "iconPath": "static/img/2.png",
+      "selectedIconPath": "static/img/22.png"
+    },
+    {
+      "pagePath": "pages/homeNew/main",
+      "text": "首页",
+      "iconPath": "static/img/3.png",
+      "selectedIconPath": "static/img/33.png"
+    }
+   ]
+   },
+   "networkTimeout": {
+     "connectSocket": 600000
+   }
+  }

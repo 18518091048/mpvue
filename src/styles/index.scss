@@ -1,0 +1,30 @@
+// @import '~emoji/lib/emoji.css';
+@import './login.scss';
+@import './homeNew.scss';
+@import './ceshi.scss';
+@import './expressDetails.scss';
+@import './myBill.scss';
+@import './orderList.scss';
+@import './orderDetails.scss';
+@import './mailing.scss';
+@import './showAddressList.scss';
+@import './addShouAddress.scss';
+@import './mailingContent.scss';
+@import './selectExpress.scss';
+@import './wallet.scss';
+@import './rechargeAmount.scss';
+@import './success.scss';
+@import './my.scss';
+@import './search.scss';
+body{
+  font-family:PingFangSC-Regular;
+}
+hr{
+  margin: 0 34rpx;
+  height:1rpx;
+  border:0px;
+  background-color:#E0E0E0;
+  color:#E0E0E0;
+}
+.clearfix, .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.hide{display: none;}
